@@ -53,7 +53,7 @@ O resistor de 1.8 kΩ foi feito associando em paralelo resistores de 4.4 kΩ e 3
 
 ### Cálculos Preliminares
 
-Saída de tensão para o capacitor: $30.7$ V
+Saída de tensão para o capacitor: $30.9$ V
 
 Razão testada do transformador: $5.5$
 
@@ -63,7 +63,7 @@ Pico de Tensão A/C: $180$ V
 
 Com base na razão ($R$) do transformador e na voltagem da rede ($V_{A/C}$), podemos calcular a tensão de saída do transformador ($V_t$):
 
-$R = \frac{V_{A/C}}{V_t}$ $\Rightarrow$ $V_t = \frac{180}{6,76}$  $\therefore$  $V_t = 26,86$
+$R = \frac{V_{A/C}}{V_t}$ $\Rightarrow$ $V_t = \frac{180}{5.5}$  $\therefore$  $V_t = 32,72$
 
 Como cada diodo gasta ~0,7V e a corrente passa por 2 diodos em um mesmo sentido, faremos:
 
@@ -71,23 +71,17 @@ $V_c = V_t - 2\cdot0,7$
 
 Então temos a voltagem no capacitor:
 
-$V_c = 25.46$ V
-
-### Falta calcular a partir daqui
-
+$V_c = 31.32$ V
 
 ### Cálculo das Correntes
 
 Vamos calcular as correntes a seguir com base na Primeira Lei de Ohm: $U = Ri$.
 
-$i_{celular} = \frac{12,22}{120} \approx 101,8 mA$
+$i_{celular} = \frac{12,179}{120} \approx 101,49 mA$
 
-$i_{LED} = \frac{25,44}{2700} \approx 9,4 mA$
+$i_{zener} = \frac{31,32 - 13}{2700} \approx 6.78 mA$
 
-$i_{zener} = \frac{25,44 - 13}{1200} \approx 10,3 mA$
-
-$i_{potenciômetro} = \frac{25,44}{10,000 + 3,700 + 1,200} \approx 1,7 mA$
-
+$i_{potenciômetro} = \frac{31,32}{10.000 + 2.700 + 1.800} \approx 2.16 mA$
 
 ### Cálculo do Capacitância
 
@@ -97,15 +91,13 @@ Temos a fórmula:
 
 $R_p = \frac{i}{f\cdot C}$  
 
-Com base no simulador, temos uma corrente $i = 0,12 A$ passando pelo capacitor. Além disso, a frequência da rede é $f = 2\cdot 60 = 120$ Hz. Logo:
+Com base no simulador, temos uma corrente $i = 0,106 A$ passando pelo capacitor. Além disso, a frequência da rede é $f = 2\cdot 60 = 120$ Hz. Logo:
 
-$\Rightarrow$  $0,1\cdot 25,23 = \frac{0,12}{120\cdot C}$
+$\Rightarrow$  $0,1\cdot 30.9 = \frac{0,106}{120\cdot C}$
 
 Portanto, conseguimos a capacitância que precisamos:
 
-$C = 396,36$ $\mu F$
-
-$C \approx 400$ $\mu F$
+$C \approx 285.87$ $\mu F$
 
 A capacitância mais próxima e maior que C que achamos foi de $470$ $\mu F$, então usamos ela.
 
