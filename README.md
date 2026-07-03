@@ -109,6 +109,9 @@ $C \approx 400$ $\mu F$
 
 A capacitância mais próxima e maior que C que achamos foi de $470$ $\mu F$, então usamos ela.
 
+### Desenho das trilhas do Circuito
+![](assets/images/PCB_PCB1_2026-06-20-1_page-0001_page-0001.jpg)
+
 
 
  
