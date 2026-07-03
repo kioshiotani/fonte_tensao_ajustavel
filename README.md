@@ -20,44 +20,42 @@ O circuito será feito a partir de uma corrente alternada de 127V (pico de 180V)
 | 1 | Capacitor | 470 uF | R$ 0,44 |
 | 1 | Potenciômetro | 10 kΩ, 1W | R$ 7,00 |
 | 1 | Resistor | 2,7 kΩ, 1W | R$ 0,40 |
-| 1 | Resistor | 3,3 kΩ | R$ 0,07 |
+| 1 | Resistor | 3,1 kΩ | R$ 0,12 |
+| 1 | Resistor | 4.4 kΩ | R$ 0,12 |
 | 1 | Resistor | 1 kΩ | R$ 0,14 |
-| 1 | Resistor | 120 Ω | R$ 1,90 |
+| 2 | Resistor | 120 Ω | R$ 1,90 |
 | 4 | Diodo Retificador | 1N4007 | R$ 0,20 |
 | 1 | Diodo Zener | 13V, 1W | R$ 0,50 |
-| 1 | LED | 5MM Difuso 333‑2SDRD/S530‑L | R$ 0,50 |
 | 1 | Transistor | NPN BC338-25 | R$ 0,45 |
 
-Valor Total: R$ 80,19
+Valor Total: R$ 81,18
 
 Agradecimentos a Pedro Paulo Coutinho Carvalho, José Fausto Vital Barbosa, Pablo Henrique Almeida Vieira, Roberto Brostel Barroso pela doação dos componentes.
-
-## Circuito no Tinkercad
-![](assets/images/tinkercad.png)
-
 
 ## Funcionamento do Circuito Físico
 ### Circuito Físico
 ![](assets/images/fisico.jpg)
 
 ### Funcionamento
-[Video do funcionamento](https://www.youtube.com/)
+[Video do funcionamento](https://www.youtube.com/shorts/0k9i4BsKFmk)
 
 ## Vídeo Explicando o Circuito 
-[Video explicando o circuito](https://www.youtube.com/)
+[Video explicando o circuito](https://www.youtube.com/shorts/LChxO8qmlZA)
 
 ## Circuito no Falstad
 ![](assets/images/falstad.png)
 
-[Simulação do Circuito](https://www.falstad.com/circuit/circuitjs.html?ctz=DwYwlgTgBAZgvAIgIwKgFwM6IAwDpsEECsqYIiALAEz5ECcAzBRdkldgwBwMOogBGlKqgAOghBV5QAbhEQkoAW0zyApgFokKAHwAoKFGAAVKAA9E6gGwUokqlAb3LVCqngJspAHaVUEAIY4uEicIWGhEeHCUCAA9kF0iagA7mCISHTRINgWSMFUBXQZkpYA7GUUdHxIlLjM2JyZ2HScRATOlhpIrgD0egbA0ma5lti2jlCao1DOrrA4Ke4osHIIo6iK-qbS6ZyeffqGycMIU2Ozk9YzLm4LBwMAJicTdlAFNna3CNGK8cgAcixsL1+oYQM92ON7I5zjd5hI+EFCBRSqQdh58KxUBhVp4ZA9EAw8KUGJYQnQUWSCEhygh7kcTu8oQ5IZ94ftQcAnuYEBMLky2e4fn8kICCCDDsBjjyYdcbN0bLMvhzJdz0sw5Sy5V9hekxcC6Zy1cgNRcXo4dRsRfqJQMADIAUQAIidSkR7K83R66JZLUo-g9VDB-ABXAA2aHUYdUDz4q2WIAA5gsYuI8Yp+OQMVj6cBoDyvbYfVBC0r2X50uxDZLpZQ+S4WbC5u4VQNaxJzdDWRby7mMCdNFROMz1MXBXdOe3B8PXmcocrq22B2OJlYPj2W4vDGgTvRvZZNZVfeWoCIfMhUPxVOkCFbEIHg+G0KhpFeLKVcKUQlRnHRSqVOHYJAGFRGRMyCL9sCoJhsEsBgfUsOhgRIXN2wuIg2BmThhww6JN1Qk5LGwzUiFNOF8MnXcyI+YsywoyURB3HlSJsXCoBY9jaXhZZNhvQhRD+PBiGxMNEAAJVUDAwAwNB-C8EBVC3KVd0ydiNSIaYWIXAieVePSVzwicaxU-d2NUrTe05fNKAMosDyPBcoFWKhSlvHTEAufT7I3IzHkUKAvEURAAC9pFiCN-ETa9gMc6T0k-boGHdUJMj2bDuA0UCICwDxUHPaJ+HRGLc2Ck4j0PMcfT9X4QrCiKorgYrKN02iG1eOjfIZFr7OLDiHMs4zmPUzC+qqgaBmshAOKIco1MVciU1WSQ3M5RMISbRsZg07SrMItr6w+PZHPjKt3LWYi2MLcdcrOojhwuUsFpuzlYigVRz2WDARA85tEFMCgkA4UQFlBAYRBkFMMCzGEtzBiHeWxLM8l9XMeliF63vPOYvp+r5-sBqRvovUHDHB9E8ShyhWwMUn4akSnkFwFHOTRjH3pvbEiesPHCcQYQSeAMnIazFCBaFhGoAZvAUFR9HJVe9nkE4TncfhUxeYRsX4YprNTq19F6azaWlNZ3RgB6cAID0IA)
+[Simulação do Circuito](https://www.falstad.com/circuit/circuitjs.html?ctz=DwYwlgTgBAZgvAIgIwKgFwM6IAwDpsEECsqYIiALAEz5ECcAzBRdkldgwBwMOogBGlKqgAOghBV5QAbhEQkoAW0zyApgFokKAHwAoKFGAAVKAA9E6gGwUokqlAb3LVCqngJspAHaVUEAIY4uEicIWGhEeHCUCAA9kF0iagA7mCISHTRINgWSLgMRKxc2EQUnBEA7HScfEjy+KxEpRVU9AyWPBpIrgD0egbA0ma5lti2jlCao1DOrrA4Ke4osHIIo6iK-qbS6ZyeffqGycMIU2Ozk9YzLm4LBwMAJicTdlBULuPR7tGK8cgAcixsL1+oYQM92J8HJDZrcJHwgoQKBVSDsPA1lhhVp4ZA9EAw8HRrBUKhQkCSKgwKtwQYdgMdzAh3jZXo4xnY4ftQcAnoyJhdmZ84T8-khAQRaQMGfiYR9ujZYfMPAh7oZeelmNcbPybkqRelxcCVdz1chNRcXo5hRtRYbJYZoIyKkR7BQiVBnU5de4cas2Fy6dKJDrtbK5j7jYGTq9WZCOUqAwMMCdNFROFD1O74xHVfSU2x068zkKE5GpSmsxMrCyraXc2gTvRXe6Lm7LJzRD5kKh+Kp0gQbYgHqoYP4AK4AGzQqGkvYsVAquE4FWwlmcVKoliQRCqc1n5HRliaLDK25CdHJnDoZaOJwuRDYM3KUAfXzu3KDlmf9-N3vfUcZUoFQ+NstQ7XMRAbQDNVfF8YIqdslWWTZ+0IUQ-kJOhCkIHCcMxCdEAAJVUDAwAwNB-C8EBVBvPNAMyOCbCIaYgPAj9o0tZtLBLHN2PoriXwY1i625R1KErAS2w7KBVgXAdc0-ECXgkti6QeRQoC8RREAAL2kWIp38ABzPskCkCMoDI9JcAqboCjTDI02wcpuA0FEZKwZVNMQaJ+DRMzaJ06MWxArMiWtJQ-j0gyKJMuAAoU4LuNbENVPLRlQNAoDbHCkSAPkGDH2yqS8oGMSEGynduOyxULL9PZE0MIyIXOD42RmZi0odO8lK9Fk9mkv12Foz9vw+T0wNK29GS-dNYImkreLpWIoFULtMRERBrDhUwyQ4UQFlBAYRBkBYoAwA82RvY7ToQKQLus9tcx6WJuRWtbfHOza1nDRBdqQfaoG+nRDhutEcQeiRGrB-FUEhvInu5F63tW9b3Iwb7tqVUwpG+4QjsME7wbhg8Aeuwnbvug88BKWjkd0YAenACA9CAA)
+
+O resistor de 1.8 kΩ foi feito associando em paralelo resistores de 4.4 kΩ e 3.1 kΩ
 
 ## Cálculo dos Componentes
 
 ### Cálculos Preliminares
 
-Saída de tensão para o capacitor: $25,536$ V
+Saída de tensão para o capacitor: $30.7$ V
 
-Razão testada do transformador: $6,7$
+Razão testada do transformador: $5.5$
 
 Pico de Tensão A/C: $180$ V
 
